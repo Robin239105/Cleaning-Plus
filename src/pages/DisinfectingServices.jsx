@@ -60,7 +60,10 @@ const DisinfectingServices = () => {
                   Schedule Sanitization
                 </button>
               </Link>
-              <button className="w-full sm:w-auto border border-border-hover/30 hover:border-white text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-heading font-black text-base md:text-lg uppercase tracking-tight transition-all hover:bg-white/5">
+              <button 
+                onClick={() => document.getElementById('protocols').scrollIntoView({ behavior: 'smooth' })}
+                className="w-full sm:w-auto border border-border-hover/30 hover:border-white text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-heading font-black text-base md:text-lg uppercase tracking-tight transition-all hover:bg-white/5"
+              >
                 Explore Safety Protocols
               </button>
             </div>
@@ -69,7 +72,7 @@ const DisinfectingServices = () => {
       </section>
 
       {/* Why Businesses Trust Us */}
-      <section className="py-32 relative bg-surface-card/20">
+      <section id="protocols" className="py-32 relative bg-surface-card/20">
         <div className="max-w-7xl mx-auto px-6 md:px-8 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="space-y-8 md:space-y-10 relative text-center lg:text-left">
              {/* Decorative Text */}
