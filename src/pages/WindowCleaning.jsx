@@ -80,7 +80,10 @@ const WindowCleaning = () => {
                   Schedule Inspection
                 </button>
               </Link>
-              <button className="w-full sm:w-auto border border-white/10 hover:border-white text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-heading font-black text-base md:text-lg uppercase tracking-tight transition-all hover:bg-white/5">
+              <button 
+                onClick={() => document.getElementById('methods').scrollIntoView({ behavior: 'smooth' })}
+                className="w-full sm:w-auto border border-white/10 hover:border-white text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-heading font-black text-base md:text-lg uppercase tracking-tight transition-all hover:bg-white/5"
+              >
                 Our Methods
               </button>
             </div>
@@ -89,7 +92,7 @@ const WindowCleaning = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-32 relative">
+      <section id="methods" className="py-32 relative">
         {/* Watermark */}
         <div className="absolute top-40 right-0 text-[20vw] font-heading font-black text-white/5 select-none pointer-events-none uppercase tracking-tighter -rotate-12 translate-x-1/4">
           Services
