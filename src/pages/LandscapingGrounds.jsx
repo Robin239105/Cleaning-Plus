@@ -139,10 +139,6 @@ const LandscapingGrounds = () => {
                   <h3 className="text-xl md:text-2xl font-heading font-black text-text-primary uppercase leading-tight tracking-tight">{card.title}</h3>
                   <p className="text-text-secondary text-sm font-medium leading-relaxed">{card.text}</p>
                 </div>
-                <button className="text-primary-light font-heading font-bold text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all w-fit">
-                  Learn More
-                  <span>→</span>
-                </button>
               </div>
             ))}
           </div>
