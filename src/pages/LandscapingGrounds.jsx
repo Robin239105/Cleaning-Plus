@@ -66,9 +66,6 @@ const LandscapingGrounds = () => {
                   View Maintenance Plans
                 </button>
               </Link>
-              <button className="w-full sm:w-auto border border-white/10 hover:border-white text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-heading font-black text-base md:text-lg uppercase tracking-tight transition-all hover:bg-white/5">
-                Our Portfolio
-              </button>
             </div>
           </div>
         </div>
