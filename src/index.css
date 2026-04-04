@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0e1322;
+  --color-surface: #111827;
+  --color-surface-card: #161b2b;
+  --color-surface-light: #f0f4ff;
+  --color-primary-light: #95ccff;
+  --color-primary: #00a8ff;
+  --color-secondary: #0ea5e9;
+  --color-accent: #41eec2;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: rgba(222, 225, 247, 0.6);
+  --color-border-subtle: rgba(62, 72, 82, 0.3);
+  --color-border-hover: rgba(14, 165, 233, 0.5);
+  
+  --font-sans: "Inter", "ui-sans-serif", "system-ui", "sans-serif";
+  --font-heading: "Epilogue", "ui-sans-serif", "system-ui", "sans-serif";
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0e1322;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #94a3b8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0e1322;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Glassmorphism Classes */
+.glass {
+  background: rgba(47, 52, 69, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glow-blue {
+  box-shadow: 0px 20px 40px -10px rgba(0, 168, 255, 0.15);
+}
+
+.glow-blue-strong {
+  box-shadow: 0px 10px 15px -3px rgba(0, 168, 255, 0.4), 0px 4px 6px -4px rgba(0, 168, 255, 0.4);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #95ccff 20%, #41eec2 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-gradient {
+  background: linear-gradient(90deg, #0e1322 0%, rgba(14, 19, 34, 0.8) 50%, rgba(14, 19, 34, 0) 100%);
+}
