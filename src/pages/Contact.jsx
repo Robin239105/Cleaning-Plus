@@ -332,10 +332,10 @@ const Contact = () => {
 
           <div className="space-y-6 mb-16">
             <h2 className="text-[48px] font-heading font-black text-white uppercase tracking-[-2.4px] leading-none">
-              Based in Houston, TX
+              Based in Tomball, TX
             </h2>
             <p className="text-[20px] text-[#95ccff] font-bold uppercase tracking-[0.2em]">
-              Serving the Greater Houston Area
+              Houston and surrounding areas
             </p>
           </div>
 
@@ -351,7 +351,7 @@ const Contact = () => {
             </div>
             {/* Row 2 */}
             <div className="flex flex-wrap justify-center gap-4">
-              {["Cypress", "Humble"].map((area, idx) => (
+              {["Cypress", "Humble", "Tomball"].map((area, idx) => (
                 <div key={idx} className="backdrop-blur-[4px] bg-[#0e1322]/50 border border-[#3e4852]/30 px-10 py-3 rounded-full text-[#bec7d3] text-[14px] font-bold uppercase tracking-[1.4px]">
                   {area}
                 </div>
