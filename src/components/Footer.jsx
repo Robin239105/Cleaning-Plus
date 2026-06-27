@@ -63,8 +63,8 @@ const Footer = () => {
               {[
                 { label: 'Disinfecting Services', path: '/services/disinfecting' },
                 { label: 'Commercial Services', path: '/services/commercial' },
-                { label: 'Landscaping & Grounds', path: '/services/landscaping' },
-                { label: 'Window Cleaning', path: '/services/window-cleaning' }
+                { label: 'Window Cleaning', path: '/services/window-cleaning' },
+                { label: 'Landscaping & Grounds', path: '/services/landscaping' }
               ].map((link) => (
                 <li key={link.label}>
                   <Link to={link.path} className="text-text-secondary hover:text-primary transition-colors text-sm font-light flex items-center gap-2">
@@ -85,7 +85,7 @@ const Footer = () => {
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                 </div>
                 <p className="text-text-secondary text-sm font-light leading-relaxed">
-                  123 Industrial Ave,<br />Houston, TX 77002
+                  27708 State Highway 249 # 75,<br />Tomball, Texas 77375
                 </p>
               </div>
               <div className="flex gap-4">

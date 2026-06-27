@@ -21,16 +21,6 @@ const services = [
   },
   {
     icon: (
-      <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M11.5 2C15 2 18 5 18 8.5C18 12 11.5 23 11.5 23C11.5 23 5 12 5 8.5C5 5 8 2 11.5 2Z" stroke="#dee1f7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        <circle cx="11.5" cy="8.5" r="2.5" fill="#dee1f7"/>
-      </svg>
-    ),
-    title: 'Landscaping',
-    description: 'Exterior maintenance that preserves curb appeal and ensures a professional first impression year-round.'
-  },
-  {
-    icon: (
       <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="3" y="3" width="17" height="17" rx="2" stroke="#dee1f7" strokeWidth="2"/>
         <path d="M3 10H20M10 3V20" stroke="#dee1f7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -56,6 +46,16 @@ const services = [
     ),
     title: 'Pressure Washing',
     description: 'High-pressure restoration for sidewalks, brickwork, and facades to remove years of Houston grime.'
+  },
+  {
+    icon: (
+      <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.5 2C15 2 18 5 18 8.5C18 12 11.5 23 11.5 23C11.5 23 5 12 5 8.5C5 5 8 2 11.5 2Z" stroke="#dee1f7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="11.5" cy="8.5" r="2.5" fill="#dee1f7"/>
+      </svg>
+    ),
+    title: 'Landscaping',
+    description: 'Exterior maintenance that preserves curb appeal and ensures a professional first impression year-round.'
   }
 ];
 

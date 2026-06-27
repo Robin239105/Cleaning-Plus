@@ -35,17 +35,6 @@ const Services = () => {
             )
         },
         {
-            title: "Landscaping & Grounds",
-            description: "Comprehensive exterior management, pruning, and seasonal programs to ensure your property's first impression is flawless.",
-            image: landscapingImg,
-            link: "/services/landscaping",
-            icon: (
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                </svg>
-            )
-        },
-        {
             title: "Window Cleaning",
             description: "Expert window washing for low and high-rise commercial buildings, providing crystal-clear results every time.",
             image: windowImg,
@@ -53,6 +42,17 @@ const Services = () => {
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+            )
+        },
+        {
+            title: "Landscaping & Grounds",
+            description: "Comprehensive exterior management, pruning, and seasonal programs to ensure your property's first impression is flawless.",
+            image: landscapingImg,
+            link: "/services/landscaping",
+            icon: (
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
             )
         }

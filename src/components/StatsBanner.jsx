@@ -1,10 +1,10 @@
 import React from 'react';
 
 const stats = [
-  { value: '500+', label: 'Client Partners' },
-  { value: '10+', label: 'Years of Excellence' },
-  { value: '6', label: 'Industry Certs' },
-  { value: 'HOU', label: 'Locally Owned & Operated' }
+  { value: '500+', label: 'Clients Served' },
+  { value: '10+', label: 'Years in Business' },
+  { value: '6', label: 'Service Types' },
+  { value: 'HOU', label: 'Houston and surrounding areas' }
 ];
 
 const StatsBanner = () => {
