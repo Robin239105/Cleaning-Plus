@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import DisinfectingServices from './pages/DisinfectingServices';
 import CommercialServices from './pages/CommercialServices';
-import LandscapingGrounds from './pages/LandscapingGrounds';
+import GroundsServices from './pages/GroundsServices';
 import About from './pages/About';
 import WindowCleaning from './pages/WindowCleaning';
 import Contact from './pages/Contact';
@@ -27,7 +27,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/services/disinfecting" element={<DisinfectingServices />} />
               <Route path="/services/commercial" element={<CommercialServices />} />
-              <Route path="/services/landscaping" element={<LandscapingGrounds />} />
+              <Route path="/services/grounds" element={<GroundsServices />} />
               <Route path="/services/window-cleaning" element={<WindowCleaning />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />

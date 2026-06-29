@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import heroBg from '../assets/figma/588d746fce8bd7e1029633b713f8a5fd9556605f.png';
 import ctaBg from '../assets/figma/711b6f20016877111ddf298f3431b05b47e1bd9c.png';
 
-const LandscapingGrounds = () => {
+const GroundsServices = () => {
   React.useEffect(() => {
-    document.title = "Landscaping & Grounds Maintenance | Commercial Properties Houston | Cleaning Plus";
+    document.title = "Grounds Services & Maintenance | Commercial Properties Houston | Cleaning Plus";
   }, []);
 
   const approachCards = [
@@ -43,7 +43,7 @@ const LandscapingGrounds = () => {
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={heroBg} alt="Landscaping" className="w-full h-full object-cover grayscale opacity-40 mix-blend-luminosity" />
+          <img src={heroBg} alt="Grounds Services" className="w-full h-full object-cover grayscale opacity-40 mix-blend-luminosity" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background"></div>
         </div>
 
@@ -53,9 +53,8 @@ const LandscapingGrounds = () => {
               <span className="w-8 h-px bg-primary-light hidden md:block"></span>
               Grounds & Exterior
             </span>
-            <h1 className="text-4xl md:text-7xl lg:text-9xl font-heading font-black leading-[1.1] md:leading-[0.9] tracking-tighter uppercase">
-              Landscaping &<br />
-              <span className="text-primary text-glow-blue">Grounds Services</span>
+            <h1 className="text-4xl md:text-7xl lg:text-9xl font-heading font-black leading-[1.1] md:leading-[0.9] tracking-tighter uppercase text-primary text-glow-blue">
+              Grounds Services
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-text-secondary font-medium leading-relaxed max-w-2xl mx-auto md:mx-0">
               Comprehensive grounds maintenance that elevates curb appeal, safety, and your property's lasting impression.
@@ -163,4 +162,4 @@ const LandscapingGrounds = () => {
   );
 };
 
-export default LandscapingGrounds;
+export default GroundsServices;

@@ -23,7 +23,7 @@ const TermsConditions = () => {
                     <section className="space-y-4">
                         <h2 className="text-2xl font-bold text-white uppercase tracking-tight">2. Services</h2>
                         <p>
-                            Cleaning Plus provides commercial custodial, disinfecting, landscaping, and window cleaning services. The specific scope of work for any given project will be outlined in a separate service agreement or quote.
+                            Cleaning Plus provides commercial custodial, disinfecting, grounds, and window cleaning services. The specific scope of work for any given project will be outlined in a separate service agreement or quote.
                         </p>
                     </section>
 

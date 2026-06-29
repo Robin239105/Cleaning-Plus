@@ -54,7 +54,7 @@ const services = [
         <circle cx="11.5" cy="8.5" r="2.5" fill="#dee1f7"/>
       </svg>
     ),
-    title: 'Landscaping',
+    title: 'Grounds Services',
     description: 'Exterior maintenance that preserves curb appeal and ensures a professional first impression year-round.'
   }
 ];

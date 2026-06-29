@@ -253,7 +253,7 @@ const Contact = () => {
                         >
                           <option className="bg-[#090e1c]">Commercial Office Cleaning</option>
                           <option className="bg-[#090e1c]">Disinfecting Services</option>
-                          <option className="bg-[#090e1c]">Landscaping & Grounds</option>
+                          <option className="bg-[#090e1c]">Grounds Services</option>
                           <option className="bg-[#090e1c]">Window Cleaning</option>
                         </select>
                         <svg className="w-5 h-5 absolute right-3 bottom-5 text-white/50 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">

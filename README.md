@@ -4,7 +4,7 @@ Cleaning Plus is a high-end, responsive web application for a Houston-based comm
 
 ## Key Features
 - **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile devices.
-- **Service-Oriented UX**: Dedicated pages for Disinfecting, Commercial Office Cleaning, Landscaping, and Window Cleaning.
+- **Service-Oriented UX**: Dedicated pages for Disinfecting, Commercial Office Cleaning, Grounds Services, and Window Cleaning.
 - **Modern Tech Stack**: Uses React 19 (Router v7) and Tailwind CSS with modern utilities (glassmorphism, advanced gradients).
 - **SEO Ready**: Dynamic document titles, metadata, robots.txt, and sitemap.xml implemented for maximum search engine visibility.
 - **Production Stable**: Global Error Boundary and custom 404 handling included.

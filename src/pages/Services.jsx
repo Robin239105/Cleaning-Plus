@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import commercialImg from '../assets/figma/2820c55403d900bda5ed11043fb62f17805fb066.png';
 import disinfectingImg from '../assets/figma/05a476c51fee141d7f4c5624dfb859284d7a86a3.png';
-import landscapingImg from '../assets/figma/588d746fce8bd7e1029633b713f8a5fd9556605f.png';
+import groundsImg from '../assets/figma/588d746fce8bd7e1029633b713f8a5fd9556605f.png';
 import windowImg from '../assets/figma/8ae0c154d013379c51dd41a5526f7a67cd3ee8cd.png';
 import heroBg from '../assets/figma/9a255404ef04e849d4448eb0d34a37389e185b77.png';
 
@@ -46,10 +46,10 @@ const Services = () => {
             )
         },
         {
-            title: "Landscaping & Grounds",
+            title: "Grounds Services",
             description: "Comprehensive exterior management, pruning, and seasonal programs to ensure your property's first impression is flawless.",
-            image: landscapingImg,
-            link: "/services/landscaping",
+            image: groundsImg,
+            link: "/services/grounds",
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />

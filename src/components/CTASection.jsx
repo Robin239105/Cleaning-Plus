@@ -69,7 +69,7 @@ const CTASection = () => {
                   >
                     <option>Commercial Cleaning</option>
                     <option>Facility Disinfecting</option>
-                    <option>Landscaping</option>
+                    <option>Grounds Services</option>
                     <option>Window Cleaning</option>
                   </select>
                   <div className="absolute right-6 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400">

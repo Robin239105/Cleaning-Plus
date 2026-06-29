@@ -64,7 +64,7 @@ const Footer = () => {
                 { label: 'Disinfecting Services', path: '/services/disinfecting' },
                 { label: 'Commercial Services', path: '/services/commercial' },
                 { label: 'Window Cleaning', path: '/services/window-cleaning' },
-                { label: 'Landscaping & Grounds', path: '/services/landscaping' }
+                { label: 'Grounds Services', path: '/services/grounds' }
               ].map((link) => (
                 <li key={link.label}>
                   <Link to={link.path} className="text-text-secondary hover:text-primary transition-colors text-sm font-light flex items-center gap-2">

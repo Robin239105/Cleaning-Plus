@@ -34,7 +34,7 @@ const Hero = () => {
 
           {/* Subtext */}
           <p className="text-base md:text-xl lg:text-[24px] text-white font-medium leading-[1.5] md:leading-[1.4] max-w-2xl bg-background/20 backdrop-blur-sm rounded-lg p-1 md:p-0">
-            Commercial cleaning, disinfecting, landscaping & facility services — all under one trusted, family-owned team.
+            Commercial cleaning, disinfecting, grounds & facility services — all under one trusted, family-owned team.
           </p>
 
           {/* Primary Actions */}

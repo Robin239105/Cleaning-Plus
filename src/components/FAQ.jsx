@@ -14,8 +14,8 @@ const faqs = [
     answer: 'We use premium, medical-grade disinfectants and EPA-approved green products to ensure a safe, high-end finish for every surface.'
   },
   {
-    question: 'Can we bundle landscaping and cleaning?',
-    answer: 'Absolutely. We specialize in comprehensive facility management packages that combine janitorial services with landscape care for a unified solution.'
+    question: 'Can we bundle grounds services and cleaning?',
+    answer: 'Absolutely. We specialize in comprehensive facility management packages that combine janitorial services with grounds care for a unified solution.'
   }
 ];
 
