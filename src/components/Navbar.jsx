@@ -61,9 +61,9 @@ const Navbar = () => {
             <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 invisible group-hover/dropdown:opacity-100 group-hover/dropdown:visible transition-all duration-300 transform group-hover/dropdown:translate-y-0 translate-y-2">
               <div className="bg-[#0f172a]/95 border border-white/10 rounded-3xl p-4 w-[320px] shadow-2xl backdrop-blur-2xl flex flex-col gap-1 overflow-hidden">
                 {[
-                  { title: 'Disinfecting', desc: 'Medical-grade sanitization', path: '/services/disinfecting', color: 'primary', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /> },
                   { title: 'Commercial', desc: 'Facility maintenance', path: '/services/commercial', color: 'secondary', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /> },
                   { title: 'Window Cleaning', desc: 'Clear commercial results', path: '/services/window-cleaning', color: 'secondary', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /> },
+                  { title: 'Disinfecting', desc: 'Medical-grade sanitization', path: '/services/disinfecting', color: 'primary', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /> },
                   { title: 'Grounds Services', desc: 'Full property maintenance', path: '/services/grounds', color: 'primary', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /> }
                 ].map((item) => (
                   <Link key={item.path} to={item.path} className="group/item flex items-center gap-4 p-4 rounded-2xl hover:bg-white/5 transition-all text-left">
@@ -131,9 +131,9 @@ const Navbar = () => {
               <div className="text-[10px] uppercase tracking-[4px] text-primary font-heading font-black mb-6 opacity-60">Specific Solutions</div>
               <div className="grid grid-cols-1 gap-4">
                 {[
-                  { label: 'Disinfecting Services', path: '/services/disinfecting' },
                   { label: 'Commercial Cleaning', path: '/services/commercial' },
                   { label: 'Window Cleaning', path: '/services/window-cleaning' },
+                  { label: 'Disinfecting Services', path: '/services/disinfecting' },
                   { label: 'Grounds Services', path: '/services/grounds' }
                 ].map((s) => (
                   <Link 

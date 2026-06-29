@@ -61,9 +61,9 @@ const Footer = () => {
             <h4 className="text-white font-heading font-bold text-sm tracking-widest uppercase">Services</h4>
             <ul className="space-y-4">
               {[
-                { label: 'Disinfecting Services', path: '/services/disinfecting' },
                 { label: 'Commercial Services', path: '/services/commercial' },
                 { label: 'Window Cleaning', path: '/services/window-cleaning' },
+                { label: 'Disinfecting Services', path: '/services/disinfecting' },
                 { label: 'Grounds Services', path: '/services/grounds' }
               ].map((link) => (
                 <li key={link.label}>
