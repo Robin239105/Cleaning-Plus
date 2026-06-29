@@ -27,11 +27,6 @@ const GroundsServices = () => {
       icon: "Enhancement"
     },
     { 
-      title: "Irrigation", 
-      text: "Precision water management and system audits to maximize plant health while minimizing water waste.",
-      icon: "Water"
-    },
-    { 
       title: "Seasonal Cleanup", 
       text: "Full-service debris removal, leaf collection, and winter preparation to ensure property safety year-round.",
       icon: "Cleanup"
