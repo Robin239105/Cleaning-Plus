@@ -33,6 +33,36 @@ const GroundsServices = () => {
     }
   ];
 
+  const getIcon = (iconName) => {
+    switch (iconName) {
+      case 'Mowing':
+        return (
+          <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M3 22h18" />
+            <path d="M12 22C12 14 9 8 4 7" />
+            <path d="M12 22C12 11 12 6 12 2" />
+            <path d="M12 22C12 14 15 8 20 7" />
+          </svg>
+        );
+      case 'Enhancement':
+        return (
+          <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M12 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm0 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-6-6a3 3 0 1 0 6 0 3 3 0 0 0-6 0Zm12 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z" />
+          </svg>
+        );
+      case 'Cleanup':
+        return (
+          <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19" />
+            <path d="M12 7l3-3M12 7L9 4M12 17l3 3M12 17l-3 3M7 12l-3 3M7 12l-3-3M17 12l3 3M17 12l3-3" />
+          </svg>
+        );
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="bg-background min-h-screen text-text-primary pt-24 font-heading overflow-hidden">
       {/* Hero Section */}
@@ -118,13 +148,11 @@ const GroundsServices = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {serviceCards.map((card, idx) => (
               <div key={idx} className="glass p-8 md:p-10 rounded-3xl md:rounded-[48px] border-white/5 min-h-[350px] md:h-[400px] flex flex-col justify-between hover:bg-surface-card/40 transition-all duration-500 hover:border-primary/20 group">
                 <div className="w-14 h-14 bg-primary/20 rounded-2xl flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                  </svg>
+                  {getIcon(card.icon)}
                 </div>
                 <div className="space-y-4">
                   <h3 className="text-xl md:text-2xl font-heading font-black text-text-primary uppercase leading-tight tracking-tight">{card.title}</h3>
