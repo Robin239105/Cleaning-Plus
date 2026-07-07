@@ -14,11 +14,13 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions';
 import NotFound from './pages/NotFound';
 import ErrorBoundary from './components/ErrorBoundary';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <ErrorBoundary>
       <Router>
+        <ScrollToTop />
         <div className="min-h-screen bg-background selection:bg-primary/30 selection:text-white">
           <Navbar />
           <main>
