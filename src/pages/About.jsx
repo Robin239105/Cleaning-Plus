@@ -71,7 +71,7 @@ const About = () => {
                 </p>
                 <div className="w-20 h-1 bg-primary"></div>
                 <p className="text-lg text-text-secondary font-light leading-relaxed">
-                  Based in the heart of Houston, our legacy is built on the sweat and dedication of a team that understands the local business landscape. We aren't just a contractor; we are your neighbors in professional excellence.
+                  Based in the heart of Houston, our legacy is built on the sweat and dedication of a team that understands the local business environment. We aren't just a contractor; we are your neighbors in professional excellence.
                 </p>
               </div>
             </div>

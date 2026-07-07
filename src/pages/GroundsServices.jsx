@@ -22,8 +22,8 @@ const GroundsServices = () => {
       icon: "Mowing"
     },
     { 
-      title: "Landscape Enhancements", 
-      text: "Strategic planting, hardscaping refreshes, and floral displays designed to modernize your property's aesthetic.",
+      title: "Grounds Enhancements", 
+      text: "Strategic planting, exterior refreshes, and floral displays designed to modernize your property's aesthetic.",
       icon: "Enhancement"
     },
     { 
@@ -166,7 +166,7 @@ const GroundsServices = () => {
 
       <section className="py-16 md:py-24 px-6 md:px-8">
         <div className="max-w-7xl mx-auto rounded-3xl md:rounded-[64px] relative overflow-hidden min-h-[350px] md:h-[400px] flex items-center justify-center shadow-3xl">
-          <img src={ctaBg} alt="Lush landscape" className="absolute inset-0 w-full h-full object-cover" />
+          <img src={ctaBg} alt="Lush grounds" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 bg-primary/80 backdrop-blur-[2px]"></div>
           
           <div className="relative z-10 text-center space-y-8 md:space-y-10 px-6 md:px-8">
